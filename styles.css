@@ -1,0 +1,237 @@
+@font-face {
+    font-family:"MedodicaRegular";
+    src: url(MedodicaRegular.otf);
+}   
+
+body{
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    padding: 0.7rem;
+    background-color: blanchedalmond;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    height: 100px;
+}
+ul{
+    display: flex;
+    margin-right: 100px;
+}
+li{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    margin-left: 8px;
+    margin-right: 8px;
+    font-size: 30px;
+    font-family: 'MedodicaRegular';
+}
+a{
+    text-decoration: none;
+    color: black;
+    transition-duration: 0.4s;
+}
+a:hover{
+    background-color: rgb(248, 255, 207);
+    border-radius: 8px;
+    padding: 10px;
+}
+.container1{
+    display: flex;
+    flex-direction: column;
+    padding: 0.7rem;
+    background-color: blanchedalmond;
+    justify-content: space-between;
+}
+.boxing{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 2rem;
+    background-color: blanchedalmond;
+}
+.inside{
+    display: flex;
+    background-color: blanchedalmond;
+    flex-direction: column;
+    justify-content: space-around;
+    .title1{
+        font-weight: 900;
+        font-size: 60px;
+        font-family: 'MedodicaRegular';
+    }
+    .description{
+        font-family: 'MedodicaRegular';
+        font-size: 21px;
+        text-align: left;
+        margin-top:10px;
+        margin-bottom: 10px;
+    }
+        .button-1 {
+            font-family: 'MedodicaRegular';
+            background-color: rgb(253, 255, 243);
+            border-radius: 8px;
+            color: #000000;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: 600;
+            padding: 10px;
+            text-align: center;
+            transition-duration: 0.4s;
+            width: 12%;
+            border-style: none;
+        }
+        .button-1:hover{
+            background-color: rgb(248, 255, 207);
+                }
+}
+.placeholder{
+    margin-left: 0px;
+    height: 15rem;
+}
+
+/* End of top half */
+
+.container2{
+    display: flex;
+    flex-direction: column;
+    padding: 0.7rem;
+    background-color: rgb(255, 240, 219);
+    justify-content: space-between;
+}
+.title2{
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 900;
+    font-size: 45px;
+    font-family: 'MedodicaRegular';
+}
+.biggest{
+    display: flex;
+    justify-content: space-evenly;
+}
+.bigbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    background-color: transparent;
+    font-family: 'MedodicaRegular';
+    font-weight: 500;
+    font-size: 22px;
+    margin-bottom: 70px;
+}
+#cat1{
+    height: 150px;
+}
+#cat2{
+    height: 150px;
+}
+#cat3{
+    height: 150px;
+}
+#cat4{
+    height: 150px;
+}
+
+/* End of container 2 */
+
+.container3{
+    display: flex;
+    flex-direction: column;
+    padding: 0.7rem;
+    background-color: rgba(255, 234, 206, 0.788);
+    justify-content: center ;
+
+    .quote{
+        margin-top: 80px    ;
+        font-size: 52px;
+        font-family: 'MedodicaRegular';
+        font-weight: 900;
+        align-self: center  ;
+    }
+    .nongsea{
+        font-family: 'MedodicaRegular';
+        font-style: oblique;
+        font-size: 15px ;
+        margin-bottom: 80px;
+        align-self: flex-end;
+        margin-right: 45rem;
+    }
+}
+/* End of container 3 */
+.container4{
+    display: flex;
+    flex-direction: column;
+    padding: 8rem;
+    background-color: rgb(255, 240, 219);
+    justify-content: center ;
+    .boxeiei{
+        padding: 1.2rem;
+        background-color: rgb(245, 184, 105);
+        border-radius: 0.8rem;
+        margin-left: 20rem;
+        margin-right: 20rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        .bible{
+            font-size: 25px;
+            font-family: 'MedodicaRegular';
+            font-weight: 900;
+            margin-left: 5rem;
+            margin-top: 1.25rem;
+        }   
+        .despacito{ 
+            margin-left: 5rem;
+            font-family: 'MedodicaRegular';
+            font-size: 20px;
+            margin-bottom: 1.25rem;
+        }
+        .button-2 {
+            font-family: 'MedodicaRegular';
+            background-color: rgb(255, 249, 224);
+            border-radius: 8px;
+            color: #000000;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: 600;
+            padding: 10px;
+            text-align: center;
+            transition-duration: 0.4s;
+            width: 8%;
+            height: 7%;
+            border-style: none;
+            margin-right: 5rem;
+            
+        }
+        .button-2:hover{
+            background-color: rgb(255, 240, 108);
+                }
+    }
+}
+/* End of container 4 */
+.footer{
+    display: flex;
+    flex-direction: row;
+    padding: 0.7rem;
+    background-color: blanchedalmond;
+    align-items: center;
+    justify-content: center;
+    .copyright{
+        font-size: 20px;
+        font-weight: 800;
+        font-family: 'MedodicaRegular';
+    }
+}
